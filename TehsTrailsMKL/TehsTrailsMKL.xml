@@ -1,0 +1,63 @@
+<OverlayData>
+
+
+    <!-- 
+	**************************************************************************** 
+	*                                                                          *
+	*                            MARKER CATEGORIES                             *
+	*                                                                          *
+	**************************************************************************** -->
+	<MarkerCategory name="ttmkl" displayName="Mad King's Lab Farm" fadeNear="3500" fadeFar="4000">
+
+		<MarkerCategory name="m" displayName="Markers" minimapvisibility="0" mapvisibility="0">
+			<MarkerCategory name="md" displayName="Mob Door" iconFile="Data/Markers/MobDoor.png"/>
+            <MarkerCategory name="im" displayName="Info Marker" ingamevisibility="0" iconFile="Data/Markers/Info.png"/>
+		</MarkerCategory>
+		
+        <MarkerCategory name="t" displayName="Trails">
+		    <MarkerCategory name="ot" displayName="Outer Trail" texture="Data/Markers/OrangeTrail.png"/>
+            <MarkerCategory name="it" displayName="Inner Trail" texture="Data/Markers/BlueTrail.png"/>
+            <MarkerCategory name="dt" displayName="Door Trails" texture="Data/Markers/GreenTrail.png"/>
+            <MarkerCategory name="vt1" displayName="Variable Trail 1" texture="Data/Markers/YellowTrail.png"/>
+            <MarkerCategory name="vt2" displayName="Variable Trail 2" texture="Data/Markers/RedTrail.png"/>
+		</MarkerCategory>
+
+	</MarkerCategory>
+	
+	
+
+	<POIs>
+        <!-- 
+        **************************************************************************** 
+        *                                                                          *
+        *                                  Markers                                 *
+        *                                                                          *
+        **************************************************************************** -->
+		<POI MapID="866" xpos="119.795" ypos="175.165" zpos="-179.222" type="ttmkl.m.md" GUID="/288dNw+UEWmRNEi5O/Z4Q=="/>
+		<POI MapID="866" xpos="-127.838" ypos="175.904" zpos="-155.821" type="ttmkl.m.md" GUID="8ElOrciniEKLOk+2JSPbLg=="/>
+		<POI MapID="866" xpos="124.885" ypos="175.977" zpos="133.685" type="ttmkl.m.md" GUID="mgYIUmxDF0Gu3l/FrlXYGg=="/>
+		<POI MapID="866" xpos="121.45" ypos="177.394" zpos="34.8963" type="ttmkl.m.md" GUID="L24ynaMO60yXGcTyRGCiNg=="/>
+        <POI MapID="866" xpos="-3.21023" ypos="241.497" zpos="3.42408" type="ttmkl.m.im" GUID="L1rMaJ46mEC/2xtH6JrJHg==" info="Do a full lap around the circle, then return the way you came from" infoRange="100"/>
+        <POI MapID="866" xpos="-52.3368" ypos="174.541" zpos="-144.291" type="ttmkl.m.im" GUID="MzcQ77SXK0qxJ5VMYevJug==" info="If you can spot the wandering skeleton group, go that way. Otherwise, take red path" infoRange="20"/>
+        <POI MapID="866" xpos="175.804" ypos="277.734" zpos="151.005" type="ttmkl.m.im" GUID="MzcQ77SXK0qxJ5VMAevJug==" 
+        info="MKL Farm Info:
+Start with a loop around the middle, exit whichever way you want, follow orange path
+Only take a green path when its respective door is up (watch your minimap)
+Only mob doors have green paths -- whether you want to do other doors or not is up to you" 
+        infoRange="20"/>
+
+        <!-- 
+        **************************************************************************** 
+        *                                                                          *
+        *                                  TRAILS                                  *
+        *                                                                          *
+        **************************************************************************** -->
+        <Trail type="ttmkl.t.ot" trailData="Data/Trails/MKLOuter_Trail.trl"/>
+        <Trail type="ttmkl.t.it" trailData="Data/Trails/MKLInner_Trail.trl"/>
+        <Trail type="ttmkl.t.dt" trailData="Data/Trails/MKLDoor_Trails.trl"/>
+        <Trail type="ttmkl.t.vt1" trailData="Data/Trails/MKLVariable_Trail1.trl"/>
+        <Trail type="ttmkl.t.vt2" trailData="Data/Trails/MKLVariable_Trail2.trl"/>
+		
+	</POIs>
+
+</OverlayData>
