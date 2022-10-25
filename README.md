@@ -1,4 +1,4 @@
-# Tehs_Trails_MKL
+### TehsTrails - Mad King's Labyrinth Farm
 Very basic pack to outline the basic Mad Kings Lab Farm pathing for new commanders
 
 - Orange outer trail, blue inner trail, green trails for doors and yellow/red trail for variable part
