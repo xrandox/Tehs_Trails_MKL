@@ -45,7 +45,7 @@
 		<POI MapID="866" xpos="-127.838" ypos="175.904" zpos="-155.821" type="ttmkl.m.md" GUID="8ElOrciniEKLOk+2JSPbLg=="/>
 		<POI MapID="866" xpos="124.885" ypos="175.977" zpos="133.685" type="ttmkl.m.md" GUID="mgYIUmxDF0Gu3l/FrlXYGg=="/>
 		<POI MapID="866" xpos="121.45" ypos="177.394" zpos="34.8963" type="ttmkl.m.md" GUID="L24ynaMO60yXGcTyRGCiNg=="/>
-        <POI MapID="866" xpos="-135.67" ypos="175.024" zpos="111.181" type="ttmkl.m.vd" GUID="mUxjATR2a0q/waUq362bcg==" info="If Viscount door is open, may be worth skipping this door" infoRange="15"/>
+        <POI MapID="866" xpos="-135.67" ypos="175.024" zpos="111.181" type="ttmkl.m.vd" GUID="mUxjATR2a0q/waUq362bcg==" info="If Viscount door is open, may be worth skipping this door (unless you are doing bosses, of course)" infoRange="15"/>
         <POI MapID="866" xpos="30.1582" ypos="177.108" zpos="136.215" type="ttmkl.m.vd" GUID="RHia5/BeVEKHJzDz7xi7XA=="/>
         <POI MapID="866" xpos="12.8122" ypos="180.755" zpos="-196.088" type="ttmkl.m.vd" GUID="wyRASajAiUOe5lJ2Qd3UIw=="/>
         <POI MapID="866" xpos="-54.76" ypos="193.576" zpos="-30.8929" type="ttmkl.m.vd" GUID="7p9uDdDhh0SvVt0Ah9Tnfg=="/>
