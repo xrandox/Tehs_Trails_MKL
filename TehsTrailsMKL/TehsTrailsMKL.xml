@@ -10,8 +10,10 @@
 	<MarkerCategory name="ttmkl" displayName="Mad King's Lab Farm" fadeNear="3500" fadeFar="4000">
 
 		<MarkerCategory name="m" displayName="Markers" minimapvisibility="0" mapvisibility="0">
-			<MarkerCategory name="md" displayName="Mob Door" iconFile="Data/Markers/MobDoor.png"/>
-            <MarkerCategory name="im" displayName="Info Marker" ingamevisibility="0" iconFile="Data/Markers/Info.png"/>
+			<MarkerCategory name="md" displayName="Mob Doors" iconFile="Data/Markers/MobDoor.png"/>
+            <MarkerCategory name="vd" displayName="Veteran Doors" iconFile="Data/Markers/MobDoor.png"/>
+            <MarkerCategory name="im" displayName="Info Markers" minimapvisibility="1" mapvisibility="1" iconFile="Data/Markers/Info.png"/>
+            <MarkerCategory name="cm" displayName="Copy Markers" minimapvisibility="1" mapvisibility="1" iconFile="Data/Markers/Info.png"/>
 		</MarkerCategory>
 		
         <MarkerCategory name="t" displayName="Trails">
@@ -37,15 +39,51 @@
 		<POI MapID="866" xpos="-127.838" ypos="175.904" zpos="-155.821" type="ttmkl.m.md" GUID="8ElOrciniEKLOk+2JSPbLg=="/>
 		<POI MapID="866" xpos="124.885" ypos="175.977" zpos="133.685" type="ttmkl.m.md" GUID="mgYIUmxDF0Gu3l/FrlXYGg=="/>
 		<POI MapID="866" xpos="121.45" ypos="177.394" zpos="34.8963" type="ttmkl.m.md" GUID="L24ynaMO60yXGcTyRGCiNg=="/>
-        <POI MapID="866" xpos="-3.21023" ypos="241.497" zpos="3.42408" type="ttmkl.m.im" GUID="L1rMaJ46mEC/2xtH6JrJHg==" info="Do a full lap around the circle, then return the way you came from" infoRange="100"/>
-        <POI MapID="866" xpos="-52.3368" ypos="174.541" zpos="-144.291" type="ttmkl.m.im" GUID="MzcQ77SXK0qxJ5VMYevJug==" info="If you can spot the wandering skeleton group, go that way. Otherwise, take red path" infoRange="20"/>
-        <POI MapID="866" xpos="175.804" ypos="277.734" zpos="151.005" type="ttmkl.m.im" GUID="MzcQ77SXK0qxJ5VMAevJug==" 
-        info="MKL Farm Info:
+        <POI MapID="866" xpos="-135.67" ypos="175.024" zpos="111.181" type="ttmkl.m.vd" GUID="mUxjATR2a0q/waUq362bcg==" info="If Viscount door is open, may be worth skipping this door" infoRange="15"/>
+        <POI MapID="866" xpos="30.1582" ypos="177.108" zpos="136.215" type="ttmkl.m.vd" GUID="RHia5/BeVEKHJzDz7xi7XA=="/>
+        <POI MapID="866" xpos="12.8122" ypos="180.755" zpos="-196.088" type="ttmkl.m.vd" GUID="wyRASajAiUOe5lJ2Qd3UIw=="/>
+        <POI MapID="866" xpos="-54.76" ypos="193.576" zpos="-30.8929" type="ttmkl.m.vd" GUID="7p9uDdDhh0SvVt0Ah9Tnfg=="/>
+        <POI MapID="866" xpos="-3.21023" ypos="241.497" zpos="3.42408" type="ttmkl.m.im" GUID="L1rMaJ46mEC/2xtH6JrJHg==" info="Do a full lap around the circle, then return the way you came from" infoRange="100"  minimapvisibility="0" mapvisibility="0" ingamevisibility="0"/>
+        <POI MapID="866" xpos="-52.3368" ypos="174.541" zpos="-144.291" type="ttmkl.m.im" GUID="MzcQ77SXK0qxJ5VMYevJug==" info="If you can spot the wandering skeleton group, go that way. Otherwise, take red path" infoRange="20" minimapvisibility="0" mapvisibility="0" ingamevisibility="0"/>
+        <POI MapID="866" xpos="175.804" ypos="277.734" zpos="151.005" type="ttmkl.m.im" GUID="frGBKo/vZUuTL3+L9rmfDA==" info="To view the commander tips for the farm, stand on one of the info icons." infoRange="30" minimapvisibility="0" mapvisibility="0" ingamevisibility="0"/>
+        <POI MapID="866" xpos="194.309" ypos="279.586" zpos="132.281" type="ttmkl.m.im" GUID="zzjyLduFaECm5WI8vvv28w==" 
+        info="Farm Basics:
 Start with a loop around the middle, exit whichever way you want, follow orange path
+The goal is to tag as many groups of enemies as you can while moving at a reasonable pace
 Only take a green path when its respective door is up (watch your minimap)
-Only mob doors have green paths -- whether you want to do other doors or not is up to you" 
-        infoRange="20"/>
+Whether you want to do other doors or not is up to you
+There are copy-paste markers in the middle next to the steward if you want to use them" infoRange="2" tip-name="Commander Info"/>
+		<POI MapID="866" xpos="189.952" ypos="279.859" zpos="130.836" type="ttmkl.m.im" GUID="CXWyPeYBE0CVi1xyGeg+9A==" 
+        info="Tips/Tricks:
+Try to spread out your doors, don't do them all at once
+Aim to do one door per half rotation, this provides enough time for mobs to respawn in the middle
+Don't go out of your way to open newly spawned doors
+Open them as you come up to them in the normal rotation
+" infoRange="2" tip-name="Commander Info"/>
+		<POI MapID="866" xpos="185.087" ypos="280.035" zpos="129.339" type="ttmkl.m.im" GUID="a7WLMbMx6Eu4590fndrJsQ==" 
+        info="Maximum Efficiency:
+In most cases, doing bosses = less bags overall
+Steve (Labyrinth Horror) is the exception to this rule since he is relatively fast to kill
+Horrower/Gourdbringer are almost never worth killing
+Viscount/Lich can be worth it if you only have ~300% MF
+Higher than 500% MF, you are losing bags by stopping to kill bosses" infoRange="2" tip-name="Commander Info"/>
+		<POI MapID="866" xpos="179.555" ypos="280.536" zpos="128.048" type="ttmkl.m.im" GUID="Glma46k/P0ybEtgTE9btMA==" 
+        info="Final Note:
+As a commander, it is your job to decide what kind of farm you want to run
+If you are running under someone else, please do not harass them for not running the 'optimal' strategy or for 'tryharding'
+Either make your own squad, or find another like-minded squad
+Let people run lab how they want to!" infoRange="2" tip-name="Commander Info"/>
+		<POI MapID="866" xpos="-6.62914" ypos="223.323" zpos="-17.1836" type="ttmkl.m.cm" GUID="ZuL0OwiGn0u2pHcxr1aA8w==" info="Generic Chat Message #1" triggerrange="2" copy="Welcome to my Mad King's Lab Farm! The goal is to sit back and relax while making some bags. In order to do that, I have just a few rules I ask you to follow:" copy-message="Copied generic chat message #1 to clipboard!"/>
+		<POI MapID="866" xpos="1.66323" ypos="222.475" zpos="-15.1539" type="ttmkl.m.cm" GUID="Lay1tRPG90CKa7SwI+Yj6w==" info="Generic Chat Message #2" triggerrange="2" copy="First and foremost, please do not run ahead of my tag. By running ahead you are causing other people to lose bags and may miss out on tags yourself." copy-message="Copied generic chat message #2 to clipboard!"/>
+		<POI MapID="866" xpos="7.26174" ypos="222.792" zpos="-9.88051" type="ttmkl.m.cm" GUID="E+RZLkjRB0ebV8mqCRJaTA==" info="Generic Chat Message #3" triggerrange="2" copy="Second and equally as important, please do not open any doors. I may choose not to open all doors or delay opening a door. Thank you and let's go make some bags!" copy-message="Copied generic chat message #3 to clipboard!"/>
+        <POI MapID="866" xpos="-4.49395" ypos="225.816" zpos="-11.588" type="ttmkl.m.cm" GUID="nqnJWsLqRUeJI2kADQhWoA==" info="Generic LFG Description" triggerrange="2" copy="Lab Farm - <blank> doors - <blank> bosses!" copy-message="Copied generic LFG description to clipboard"/>
+		<POI MapID="866" xpos="1.34634" ypos="225.672" zpos="-9.37145" type="ttmkl.m.cm" GUID="boboes5jdUqU42iPzYtUSQ==" info="Generic Squad Message" triggerrange="2" copy="Welcome!
+This squad does <blank> doors and <blank> bosses!
 
+- Please do not run ahead of tag
+- Please do not open doors
+- Take off accessories/trinkets/backpack and/or use masterwork/rare or non-damaging stats
+- Enjoy and have fun!" copy-message="Copied generic squad message to clipboard"/>
         <!-- 
         **************************************************************************** 
         *                                                                          *
