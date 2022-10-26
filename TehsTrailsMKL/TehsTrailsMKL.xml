@@ -7,7 +7,7 @@
 	*                            MARKER CATEGORIES                             *
 	*                                                                          *
 	**************************************************************************** -->
-	<MarkerCategory name="ttmkl" displayName="Mad King's Lab Farm" fadeNear="3500" fadeFar="4000">
+	<MarkerCategory name="ttmkl" displayName="Mad King's Lab - Commander Pack" fadeNear="3500" fadeFar="4000">
 
 		<MarkerCategory name="m" displayName="Markers" minimapvisibility="0" mapvisibility="0">
 			<MarkerCategory name="md" displayName="Mob Doors" iconFile="Data/Markers/MobDoor.png"/>
@@ -24,6 +24,11 @@
             <MarkerCategory name="vt2" displayName="Variable Trail 2" texture="Data/Markers/RedTrail.png"/>
 		</MarkerCategory>
 
+        <MarkerCategory name="c" displayName="Created By">
+            <MarkerCategory name="d" displayName="null#7146" isseparator="1"/>
+            <MarkerCategory name="i" displayName="xTeh.7146" minimapvisibility="0" mapvisibility="0" ingamevisibility="0" iconFile="Data/Markers/Info.png"/>
+        </MarkerCategory>
+
 	</MarkerCategory>
 	
 	
@@ -35,6 +40,7 @@
         *                                  Markers                                 *
         *                                                                          *
         **************************************************************************** -->
+        <POI MapID="866" xpos="100.000" ypos="100.000" zpos="100.000" type="ttmkl.c.i" GUID="RcvJgAw3/0OeVHG17ugKHQ=="/>
 		<POI MapID="866" xpos="119.795" ypos="175.165" zpos="-179.222" type="ttmkl.m.md" GUID="/288dNw+UEWmRNEi5O/Z4Q=="/>
 		<POI MapID="866" xpos="-127.838" ypos="175.904" zpos="-155.821" type="ttmkl.m.md" GUID="8ElOrciniEKLOk+2JSPbLg=="/>
 		<POI MapID="866" xpos="124.885" ypos="175.977" zpos="133.685" type="ttmkl.m.md" GUID="mgYIUmxDF0Gu3l/FrlXYGg=="/>
